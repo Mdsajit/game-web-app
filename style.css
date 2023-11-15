@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -304,10 +306,77 @@
     text-decoration: none !important;
 }
 
-.breadcrumb .breadcrumb-item .active {
-    color: #E47500 !important;
-    font-size: 16px !important;
-    font-weight: 400 !important;
-    line-height: 208.5% !important;
+.breadcrumb-item.active {
+    color: #FA9021 !important;
+    margin-top: 5px;
+}
+main {
+    background-color: black;
+    margin-bottom: 0;
+}
+.service_main {
+    text-align: center;
+}
+.service_main h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 50.5%;
+}
+.service_main p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.service_review {
+    border-radius: 10px;
+    background-color: #1C140F;
+    z-index: -111;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.service_review_box {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.service_review_box img {
+    width: 50px;
+    height: 50px;
+}
+
+.service_review_content h3{
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.service_review_content p {
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.service_review .line {
+    width: 2px;
+    height: 125.573px;
+    background-color: #EEEFF2;
 }
 /*service page end*/

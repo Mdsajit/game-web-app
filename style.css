@@ -379,4 +379,98 @@ main {
     height: 125.573px;
     background-color: #EEEFF2;
 }
+.spider_box_section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px 0;
+}
+
+.section_three_content {
+
+}
+
+.section_three_content h2{
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 40px;
+}
+
+.section_three_content p {
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 40px;
+}
+
+.section_three_content .btn-more {
+    background-color: #DC7000;
+    color: #fff;
+    padding: 12px 44px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section_three_image {
+    width: 496px;
+    height: 489px;
+    object-fit: cover;
+}
+
+.section_three_content .btn-more:hover {
+    background-color: #DC7000;
+    color: #fff;
+}
+
+.spider_box_image {
+    border-radius: 16px;
+    width: 680px;
+    height: 354.937px;
+    box-shadow: 0px 2px 4px 0px rgba(47, 48, 53, 0.15);
+    background: linear-gradient(0deg, rgba(47, 48, 53, 0.50) 0%, rgba(47, 48, 53, 0.50) 100%), url(./images/video.png), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.spider_box_content h2 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180.5%;
+}
+.spider_box_content p {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 187.5%; /* 26.25px */
+}
+.spider_box_content ul li {
+    list-style: none;
+    padding: 6px 0;
+    color: #fff;
+}
+.spider_box_content ul li img{
+    margin-right: 10px;
+}
+.spider_box_content ul {
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
 /*service page end*/

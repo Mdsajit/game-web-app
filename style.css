@@ -382,11 +382,79 @@
 .content_image_section_spider .small_image {
     position: absolute;
     right: 100px;
-    top: -20px;
+    top: -10px;
     
 }
 
 
+.trending-section h2 {
+    margin-bottom: 0px;
+    padding-top: 100px;
+}
+
+.typesetting-section {
+    background-image: url(./images/typesetting.png);
+    backdrop-filter: blur(2px);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 80px 0;
+}
+
+.typesetting-section p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 187.5%;
+}
+
+.typesetting-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), rgba(0, 0, 0, 0.54);
+        backdrop-filter: blur(2px);
+      z-index: -1; 
+}
+.service_box_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.service_box_content {
+    z-index: 99;
+    padding: 15px;
+}
+
+.service_box_content_middle {
+    grid-row: 2 / span 2;
+    justify-content: center;
+}
+
+.service_box_content img {
+    margin-bottom: 15px;
+}
+.service_box_content h6 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 187.5%;
+}
+
+.service_box_content .fa-arrow-right {
+    color: #DC7000;
+    padding-top: 10px;
+}
 
 /*service page started*/
 .breadcrumb {
